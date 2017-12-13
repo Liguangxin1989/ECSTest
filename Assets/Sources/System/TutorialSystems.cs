@@ -19,6 +19,8 @@ public class TutorialSystems : Feature {
         Add(new RenderSpriteSystem(contexts));
         Add(new RenderPositionSystem(contexts));
         Add(new RenderDirectionSystem(contexts));
-
+        Add(new CommandMoveSystem(contexts));
+        Add(new MoveSystem(contexts));
+        Add(new MiddleMouseClickSystem(contexts));
     }
 }

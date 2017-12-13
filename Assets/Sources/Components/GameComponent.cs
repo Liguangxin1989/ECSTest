@@ -30,3 +30,15 @@ public class MoverComponent :IComponent
 {
 
 }
+
+[Game]
+public class MoveComponent :IComponent
+{
+    public Vector2 pos;
+}
+
+[Game]
+public class MoveCompleteComponent : IComponent
+{
+
+}
